@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+<body>
+	<h1>Registration Form</h1>
+	<form action="" class="form">
+		<div class="form_item">
+			<label for="name" class="form_item_label">Name</label>
+			<input type="text" class="form_item_input" id="name">
+			<span id="error_name" class="error"></span>
+		</div>
+		<div class="form_item">
+			<label for="email" class="form_item_label">Email</label>
+			<input type="email" class="form_item_input" id="email">
+			<span id="error_email" class="error"></span>
+		</div>
+		<div class="form_item">
+			<label for="password" class="form_item_label">Password</label>
+			<input type="password" class="form_item_input" id="password">
+			<span id="error_password" class="error"></span>
+		</div>
+		<div class="form_item">
+			<label for="confirm-password" class="form_item_label">Confirm Password</label>
+			<input type="password" class="form_item_input" id="confirm-password">
+			<span id="error_confirm_password" class="error"></span>
+		</div>
+		<div class="form_btn">
+			<input type="submit" value="Register" class="form_btn_register" onclick="return checkValue()">
+		</div>
+		<span id="sccess"></span>
+	</form>
+	<script src="app.js"></script>
+</body>
+</html>

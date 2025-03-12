@@ -1,0 +1,42 @@
+.button-area{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top:20% ;
+}
+
+button{
+
+	border-radius: 5px;
+	padding: 20px 30px;
+	border: none;
+	cursor: pointer;
+}
+
+.modal{
+	width:50%;
+	height:50vh;
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	top:25vh;
+	left: 25%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color: white;
+	border-radius: 20px;
+	display:none;
+}
+.show{
+	display:flex;
+}
+.close{
+	position:absolute;
+	right:10px;
+	top:10px;
+	font-size: 2rem;
+	cursor:pointer;
+}
+.modal-content{
+	font-size: 3rem;
+}

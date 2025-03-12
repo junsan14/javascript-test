@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script src="index.js"></script>
+</head>
+<body>
+	<div id="demo"></div>
+	<button onclick="document.getElementById('demo').innerHTML = Date()">
+		The time is?
+	</button>
+
+	<div id="demo-function"></div>
+	<button onclick="setTime()">
+		The time is?
+	</button>
+
+	<input type="text" onchange="setText()">
+	<p class="demo-onchange"></p>
+
+
+	<p id="demo-input-text">Hello, World</p>
+	<button onclick="showText()">
+		ShowText
+	</button>
+
+	<div id="demo-input-text-practice"></div>
+	<input type="text" id="input-text-practice">
+	<button onclick="getText()">
+		GetText
+	</button>
+	
+</body>
+</html>

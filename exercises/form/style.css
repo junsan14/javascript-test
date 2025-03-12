@@ -1,0 +1,31 @@
+
+h1{
+	text-align: center;
+}
+.form{
+	background: #eee;
+	width: 50%;
+	margin: 0 auto;
+	padding: 10px 20px;
+}
+@media screen (min-width:767px){
+	.form{
+		width:95%;
+	}
+}
+.form_item{
+	display: flex;
+	flex-wrap: wrap;
+	width:50%;
+	margin: 5px auto;
+}
+.form_item_label{
+	width: 100%;
+}
+.form_item_input{
+	margin-left: 5px;
+	width: 100%;
+}
+.form_btn{
+	text-align: right;
+}

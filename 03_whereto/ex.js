@@ -1,0 +1,1 @@
+document.getElementById('practice').innerHTML = "Hello World";

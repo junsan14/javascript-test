@@ -1,0 +1,19 @@
+
+.box{
+	background: red;
+	position:absolute;
+	left:0px;
+	width: 200px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	transition: .5s ease;
+}
+
+.after{
+	background:blue;
+	left:300px;
+	transition:.5s ease;
+}

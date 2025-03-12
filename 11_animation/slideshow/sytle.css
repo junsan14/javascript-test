@@ -1,0 +1,37 @@
+img{
+  max-width: 100%;
+}
+.slideshow{
+  width:100px;
+  position: relative;
+}
+.slide {
+  opacity: 0;
+  width:300px;
+  height:300px;
+  object-fit: cover;
+  transition: 1s ease;
+  position:absolute;
+  left: 0;
+  top:0;
+}
+.show {
+  opacity:1;
+   transition: 1s ease;
+}
+.slide-display{
+  display: none;
+}
+.slideshow.show{
+  display:block;
+}
+.objectfit{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.withoutobjectfit{
+  width: 150px;
+  height: 150px;
+
+}

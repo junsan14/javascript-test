@@ -1,0 +1,12 @@
+.box{
+	width:100px;
+	height: 100px;
+	background: yellow;
+	transition: .5s ease;
+}
+
+.expand{
+	width:300px;
+	height:200px;
+	transition: .5s ease;
+}

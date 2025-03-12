@@ -1,0 +1,16 @@
+.content{
+	width: 200px;
+	height: 100px;
+	background: skyblue;
+	border: none;
+	border-radius: 5px;
+	margin-top:10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity:1;
+}
+
+.hide{
+	opacity: 0;
+}

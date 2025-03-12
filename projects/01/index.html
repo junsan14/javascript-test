@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Project01</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="reset.css">
+</head>
+<body>
+	<header class="header">
+		<ul class="header-ui">
+			<li class="header-ui-li"><a href="#">TOP</a></li>
+			<li class="header-ui-li"><a href="#about">ABOUT</a></li>
+			<li class="header-ui-li"><a href="#news">NEWS</a></li>
+			<li class="header-ui-li"><a href="#contact">CONTACT</a></li>
+		</ul>
+	</header>
+	<div class="kv">
+
+			<img src="./img/kv01.jpg" alt="" class="kv-image-src show">
+			<img src="./img/kv02.jpg" alt="" class="kv-image-src">
+			<img src="./img/kv03.jpg" alt="" class="kv-image-src">
+			<img src="./img/kv04.jpg" alt="" class="kv-image-src">	
+
+	</div>
+	<main class="main">
+		<section class="section wrap" id="about">
+			<h2 class="section-title">ABOUT</h2>
+			<div class="about-content">
+				<div class="about-content-left">
+					<div class="about-content-left-image">
+						<img src="./img/myself.webp" alt="" class="about-content-left-image-src">
+					</div>
+					<div class="about-content-left-desc">
+						<p>Juncihi Sunada</p>
+						<p>33 years</p>
+						<p>Tokyo,Japan</p>
+					</div>
+				</div>
+				
+				<div class="about-content-right">
+					<dl class="about-content-right-bio">
+						<dt>2007</dt>
+						<dd>New York, USA</dd>
+						<dt>2013</dt>
+						<dd>Started elementary school at Lincoln Elementary.</dd>
+						<dt>2019</dt>
+						<dd>Graduated from elementary school and entered Springfield Middle School.</dd>
+						<dt>2022</dt>
+						<dd>Started high school at Springfield High School.</dd>
+						<dt>2025</dt>
+						<dd>Graduating from high school with honors, planning to study Computer Science at MIT.</dd>
+					</dl>
+				</div>
+			</div>
+		</section>
+		<section class="section wrap" id="news">
+			<h2 class="section-title">NEWS</h2>
+			<div class="news">
+				<div class="news-item">
+					<img src="./img/post01.png" alt="" class="news-item-src">
+					<h3 class="news-item-title">
+						New AI Model Surpasses Human-Level Performance
+					</h3>
+					<p class="news-item-excerpt">
+						A breakthrough AI model has achieved record-breaking accuracy in various tasks, raising questions about the future of artificial intelligence.
+					</p>
+					<p class="news-item-date">2025-03-04</p>
+				</div>
+
+				<div class="news-item">
+					<img src="./img/post03.png" alt="" class="news-item-src">
+					<h3 class="news-item-title">
+						Olympic Committee Announces New Sports for 2028 Games
+					</h3>
+					<p class="news-item-excerpt">
+						The International Olympic Committee has introduced new sports, including e-sports and parkour, for the 2028 Summer Olympics.
+					</p>
+					<p class="news-item-date">2025-03-03</p>
+				</div>
+
+				<div class="news-item">
+					<img src="./img/post02.png" alt="" class="news-item-src">
+					<h3 class="news-item-title">
+						New AI Model Surpasses Human-Level Performance
+					</h3>
+					<p class="news-item-excerpt">
+						A breakthrough AI model has achieved record-breaking accuracy in various tasks, raising questions about the future of artificial intelligence.
+					</p>
+					<p class="news-item-date">2025-03-04</p>
+				</div>
+			</div>
+		</section>
+		<section class="section wrap" id="contact">
+			<h2 class="section-title">CONTACT</h2>
+			<form action="" class="form">
+				<div class="form-item">
+					<label for="name" class="form-item-label">Name</label>
+					<input type="text" name="name" class="form-item-input" id="name">
+					<span class="form-item-error" id="error-name"></span>
+				</div>
+				<div class="form-item">
+					<label for="email" class="form-item-label">Email</label>
+					<input type="email" name="email" class="form-item-input" id="email">
+					<span class="form-item-error" id="error-email"></span>
+				</div>
+				<div class="form-item">
+					<label for="subject" class="form-item-label">Subject</label>
+					<input type="text" name="subject" class="form-item-input" id="subject" >
+					<span class="form-item-error" id="error-subject"></span>
+				</div>
+				<div class="form-item">
+					<label for="content" class="form-item-label">Content</label>
+					<textarea class="form-item-textarea" name="content"></textarea>
+				</div>
+
+				<div class="form-item">
+					<input type="submit" value="Send" class="form-item-submit" id="send-btn">
+				</div>
+			</form>
+			
+		</section>
+	</main>
+	<footer class="footer">
+		&copy; JUNICHI SUNADA
+	</footer>
+
+	<script src="app.js"></script>
+</body>
+</html>
