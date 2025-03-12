@@ -56,3 +56,5 @@ const fruits = ["apple", "orange", "grape"];
 const newFruits = fruits.map((fruit)=>{
 	return fruit.toUpperCase();
 })
+
+console.log("aaa");
